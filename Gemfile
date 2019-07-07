@@ -55,3 +55,8 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# Added Additional Gems
+gem 'pry'
+gem 'graphql', '~> 1.9', '>= 1.9.3'
+gem 'graphiql-rails', group: :development
